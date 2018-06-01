@@ -18,9 +18,12 @@
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
 
     <!-- bower:css -->
+    <link rel='stylesheet' href='/bootstrap/dist/css/bootstrap.min.css' />
     <!-- endbower -->
 
     <!-- inject:css -->
+    <link rel="stylesheet" href="/css/agency.css">
+    <link rel="stylesheet" href="/css/agency.min.css">
     <!-- endinject -->
 
   </head>
@@ -37,16 +40,7 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav text-uppercase ml-auto">
-
-            <% for(let i = 0; i < nav.length; i++) { %>
-              <li class="nav-item">
-                <a class="nav-link js-scroll-trigger" href="#<%= nav[i].Link %>">
-                  <%= nav[i].Text %>
-                </a>
-              </li>
-            <% } %>
-
-            <!-- <li class="nav-item">
+            <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#services">Services</a>
             </li>
             <li class="nav-item">
@@ -60,7 +54,7 @@
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
-            </li> -->
+            </li>
           </ul>
         </div>
       </div>
@@ -705,9 +699,19 @@
     </div>
 
     <!-- bower:js -->
+    <script src="/jquery/dist/jquery.min.js"></script>
+    <script src="/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/jquery-easing/jquery.easing.js"></script>
+    <script src="/jquery-easing/jquery.easing.min.js"></script>
     <!-- endbower -->
 
     <!-- inject:js -->
+    <script src="/js/agency.js"></script>
+    <script src="/js/agency.min.js"></script>
+    <script src="/js/contact_me.js"></script>
+    <script src="/js/contact_me.min.js"></script>
+    <script src="/js/jqBootstrapValidation.js"></script>
+    <script src="/js/jqBootstrapValidation.min.js"></script>
     <!-- endinject -->
   </body>
 
