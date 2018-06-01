@@ -30,6 +30,11 @@
         "dist/css/bootstrap.min.css",
         "dist/js/bootstrap.bundle.min.js"
       ]
+    },
+    "jquery-easing": {
+      "main": [
+        "jquery.easing.min.js"
+      ]
     }
   }
 }
